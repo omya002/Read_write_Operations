@@ -70,7 +70,7 @@ public class Write_Operation {
 
 			WebElement confirmationMessage = driver.findElement(By.xpath("//div[text()='Thanks for submitting the form']"));
 
-			HSSFCell cell = sheet.getRow(i).createCell(6);
+			HSSFCell cell = sheet.getRow(i).createCell(7);
 
 			if (confirmationMessage.isDisplayed()) {
 
